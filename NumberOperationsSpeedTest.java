@@ -13,7 +13,7 @@ class NumberOperationsSpeedTest {
     @BeforeAll
     static void setupAll() {
         System.out.println("Тестирование...");
-        String filename = "/Users/dk/Desktop/tz2/tz2/src/numbers.txt";
+        String filename = "numbers.txt";
         NumberOperations.loadNumbersFromFile(filename);
         numbers = NumberOperations.numbers;
     }
