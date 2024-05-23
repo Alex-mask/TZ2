@@ -3,16 +3,14 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+
 
 public class NumberOperations {
     static List<Integer> numbers = new ArrayList<>();
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите название файла: ");
-        String filename = scanner.nextLine();
-        scanner.close();
+        String filename = "numbers.txt"
+
 
         loadNumbersFromFile(filename);
 
