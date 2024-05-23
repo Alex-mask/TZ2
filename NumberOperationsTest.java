@@ -11,7 +11,7 @@ class NumberOperationsTest {
     @BeforeAll
     static void setupAll() {
         System.out.println("Тестирование...");
-        NumberOperations.loadNumbersFromFile("/Users/dk/Desktop/tz2/tz2/src/numbers.txt");
+        NumberOperations.loadNumbersFromFile("numbers.txt");
         numbers = NumberOperations.numbers;
     }
 
